@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 # Configure MySQL connection
 conn = pymysql.connect(
-    host='mybooks.ck380qchkwiz.us-east-2.rds.amazonaws.com',
-    user='admin',
-    password='fontaine2019+',
+    host='',
+    user='',
+    password='',
     db='mybooks',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
